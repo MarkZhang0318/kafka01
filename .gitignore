@@ -1,0 +1,11 @@
+#忽略target目录
+target/
+
+#忽略test目录
+test/
+
+#忽略日志文件
+*.log
+
+#忽略.idea目录
+.idea/

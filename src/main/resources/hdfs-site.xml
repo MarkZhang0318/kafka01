@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
+<property>
+        <name>dfs.namenode.name.dir</name>
+ 	<value>/root/install/hadoop-2.7.7/data/namenode</value>
+</property>
+<property>
+        <name>dfs.datanode.data.dir</name>
+        <value>/root/install/hadoop-2.7.7/data/datanode</value>
+</property>
+<property>
+    <name>dfs.webhdfs.enabled</name>
+    <value>true</value>
+</property>
+</configuration>
